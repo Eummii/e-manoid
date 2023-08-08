@@ -1,0 +1,89 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["hello", "hi", "hey", "howdy"],
+          "responses": ["Hello!", "Hi there!", "Hey!", "Howdy!"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["bye", "goodbye", "see you later"],
+          "responses": ["Goodbye!", "Farewell!", "See you later!"]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["thank you", "thanks a lot", "thanks so much"],
+          "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+      },
+      {
+          "tag": "help",
+          "patterns": ["help", "can you assist me", "need help"],
+          "responses": ["Sure, I'm here to help!", "How can I assist you?", "I'm ready to help."]
+      },
+      {
+          "tag": "about",
+          "patterns": ["what are you", "tell me about yourself", "who are you"],
+          "responses": ["I am a chatbot designed to assist you.", "I'm just a bot here to chat with you."]
+      },
+      {
+          "tag": "weather",
+          "patterns": ["what's the weather like today?", "tell me the current weather", "weather forecast"],
+          "responses": ["I'm sorry, I don't have access to real-time data."]
+      },
+      {
+          "tag": "joke",
+          "patterns": ["tell me a joke", "give me a funny joke", "joke of the day"],
+          "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I used to play piano by ear, but now I use my hands."]
+      },
+      {
+          "tag": "search",
+          "patterns": ["search for {query}", "look up {query}", "find information about {query}"],
+          "responses": ["I'm sorry, I am not capable of browsing the web."]
+      },
+      {
+          "tag": "time",
+          "patterns": ["what's the time", "tell me the current time", "what time is it"],
+          "responses": ["I'm sorry, I cannot provide real-time information."]
+      },
+      {
+          "tag": "date",
+          "patterns": ["what's the date today", "tell me today's date", "what's the current date"],
+          "responses": ["I'm sorry, I cannot provide real-time information."]
+      },
+      {
+          "tag": "fun_fact",
+          "patterns": ["tell me a fun fact", "give me an interesting fact", "fun fact of the day"],
+          "responses": ["Did you know that honey never spoils?", "A group of flamingos is called a 'flamboyance'!"]
+      },
+      {
+          "tag": "name",
+          "patterns": ["what's your name", "do you have a name"],
+          "responses": ["I am E-manoid, your friendly chatbot.", "You can call me E-manoid."]
+      },
+      {
+          "tag": "age",
+          "patterns": ["how old are you", "when were you born"],
+          "responses": ["I don't have an age. I'm just a program.", "Age is just a number for me, as I am a bot."]
+      },
+      {
+          "tag": "favorite_color",
+          "patterns": ["what's your favorite color", "do you have a favorite color"],
+          "responses": ["As a chatbot, I don't have preferences like humans, so I don't have a favorite color."]
+      },
+      {
+          "tag": "meaning_of_life",
+          "patterns": ["what is the meaning of life"],
+          "responses": ["The meaning of life is a profound question, and it may differ for each individual."]
+      },
+      {
+          "tag": "personal_question",
+          "patterns": ["where do you live", "what do you look like", "how do you look"],
+          "responses": ["I am an artificial intelligence and exist in the digital realm, so I don't have a physical presence or location."]
+      },
+      {
+          "tag": "chatbot_creator",
+          "patterns": ["who created you", "who is your creator"],
+          "responses": ["Oh-ner."]
+      }
+  ]
+}
